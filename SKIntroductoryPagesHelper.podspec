@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "SKIntroductoryPagesHelper"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "An iOS ImagePicker."
   s.homepage     = "https://github.com/githubze/SKIntroductoryPagesHelper"
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
@@ -9,6 +9,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
   s.source_files = "SKIntroductoryPagesHelper/**/*.{h,m}"
   s.requires_arc = true
-  s.dependency  'Masonry', 'SKQuickControl'
+  s.dependency  'SKQuickControl','~> 1.0.0'
+  s.dependency  'Masonry','~> 1.1.0'
 
 end
