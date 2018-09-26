@@ -30,6 +30,8 @@
 #define kMainColor          UIColorFromRGB(0xFC6B61)
 
 #import "SKIntroductoryPagesView.h"
+#import "Masonry.h"
+#import "SKQuickControl.h"
 
 @interface SKIntroductoryPagesView() <UIScrollViewDelegate>
 
