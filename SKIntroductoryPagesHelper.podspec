@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "SKIntroductoryPagesHelper"
-  s.version      = "1.0.3"
+  s.version      = "1.0.4"
   s.summary      = "An iOS ImagePicker."
   s.homepage     = "https://github.com/githubze/SKIntroductoryPagesHelper"
   s.license      = { :type => 'MIT', :file => 'LICENSE' }

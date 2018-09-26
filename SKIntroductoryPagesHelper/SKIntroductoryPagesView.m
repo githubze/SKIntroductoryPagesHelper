@@ -106,7 +106,7 @@
 }
 - (UIButton *)startButton{
     if (!_startButton) {
-        _startButton = [UIButton buttonWithFrame:CGRectMake((KSCREENWIDTH-120)/2, KSCREENHEIGHT-89-40, 120, 40) title:@"立即体验" titleColor:[UIColor whiteColor] font:kPfFont(15) image:nil color:kMainColor tag:1 target:self action:@selector(clostPages)];
+        _startButton = [UIButton buttonWithFrame:CGRectMake((KSCREENWIDTH-120)/2, KSCREENHEIGHT-89-40, 120, 40) title:@"立即体验" titleColor:[UIColor whiteColor] font:[UIFont fontWithName:@"PingFangSC-Regular" size:15] image:nil color:kMainColor tag:1 target:self action:@selector(clostPages)];
         _startButton.layer.cornerRadius = 6;
     }
     return _startButton;
